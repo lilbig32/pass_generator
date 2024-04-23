@@ -1,0 +1,41 @@
+html {
+    overflow-x: hidden;
+    background-image: url(fon.gif);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232F4F;
+    height: 450px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.form label {
+    font-size: 20px;
+}
+  
+  .form input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+  }
+
+button {
+    font-size: 20px;
+    padding: 8px 30px;
+    background-color: #FF2400;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
